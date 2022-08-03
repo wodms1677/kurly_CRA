@@ -1,1 +1,48 @@
 깃허브 푸쉬하기
+
+
+1. 깃 설정
+  
+  git init
+
+2. 깃 환경설정
+
+  git config user.name 'wodms1677'
+  git config user.email 'wodms1677@naver.com'
+
+  - 확인
+  git config user.name
+  git config user.email
+
+3. 깃허브 원격지 리포지토리(저장소) origin(url)
+
+  git remote add origin https://github.com/wodms1677/kurly_CRA.git
+  
+  - 삭제
+  git remote remove origin 
+
+  - 확인 
+  git remote -v
+
+4. 깃허브 스테이징(자료 올리기)
+
+  git add .
+  
+5. 코멘트 달기
+  
+  git commit -m '리액트 CRA 마켓컬리 회원가입폼 원본 소스'
+
+6. 푸쉬하기(최종)
+
+  git push origin master
+
+//////////////////////////////////////////////////////////
+깃허브에서 폴더 내려받기
+
+1. 복제할 폴더 생성
+
+2. 클론 clone
+  
+  - git clone origin url(리포지토리 url)
+  git clone origin https://github.com/wodms1677/kurly_CRA.git
+  
